@@ -1,4 +1,4 @@
-'''def tic(BOARD):
+def tic(BOARD):
     row1="{}|{}|{}".format(BOARD[0],BOARD[1],BOARD[2])
     row2="{}|{}|{}".format(BOARD[3],BOARD[4],BOARD[5])
     row3="{}|{}|{}".format(BOARD[6],BOARD[7],BOARD[8])
@@ -23,4 +23,3 @@ while(0==0):
     else:
         BOARD[o]='o'
     tic(BOARD)
-'''
